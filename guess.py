@@ -1,5 +1,9 @@
 import random
-num = random.randint(1, 100)
+m = input('請輸入數字範圍下限：')
+M = input('請輸入數字範圍上限：')
+m = int(m)
+M = int(M)
+num = random.randint(m, M)
 count = 0
 while True:
     count = count + 1
